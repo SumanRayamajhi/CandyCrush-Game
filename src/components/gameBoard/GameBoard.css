@@ -1,0 +1,17 @@
+.GameBoard-App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.GameBoard-Game {
+  height: 560px;
+  width: 560px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.GameBoard-Game img {
+  height: 70px;
+  width: 70px;
+}
