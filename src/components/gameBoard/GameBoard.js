@@ -109,8 +109,6 @@ const GameBoard = () => {
     }
   };
 
-  console.log(scoreDisplay);
-
   const moveSquareBelow = () => {
     for (let i = 0; i <= 55; i++) {
       const firstRow = [0, 1, 2, 3, 4, 5, 6, 7];
